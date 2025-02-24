@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one nav{
+    height: 75px;
+    width: 100vw;
+    display: flex;
+}
+.a{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a h1{
+    color:#0a66c2;
+    font-size:xx-large;
+} 
+.b{
+    height: 100%;
+    width: 30%;
+    padding: 15px;
+}
+.b .b1>li>a>img{
+    color:rgb(240, 240, 240);
+}
+.b .b1>li>a>img:hover{
+    transition: all 0s 5px;
+    zoom: 2px;
+    color: black;
+}
+aside ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    align-content: center;
+}
+.b2 a{
+    text-decoration: none;
+    color: black;
+}
+.c{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.c li:first-child
+{
+    list-style: none;
+}
+.c li:last-child{
+    list-style: none;
+}
+.c li{
+    text-decoration: none;
+}
+.c2 a{
+    text-decoration: none;
+    color: black;
+}
+.d{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.d .d1{
+    height: 60%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.d .d1>a{
+    text-decoration: none;
+    color: black;
+}
+.d .d1:hover{
+   
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+}
+.d .d2{
+    height: 60%;
+    width: 40%;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #0a66c2;
+    border-radius: 20px;
+}
+.d .d2>a{
+    text-decoration: none;
+    color:#0a66c2;
+}
+.two{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    transform: translateY(50px);
+}
+.two .e{
+    height: 100%;
+    width: 55%; 
+    display: flex;
+    justify-content: end;
+}
+.two .e>.e1{
+    height: 80%;
+    width: 83%; 
+}
+.two .e>.e1>.E1{
+    height: 20%;
+    width: 100%;
+}
+.two .e>.e1>.E1>h1{
+    font-size: 60px;
+    color: #526a6e;
+}
+.two .e>.e1>.E2{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.two .e>.e1>.E2>button{
+    height: 50%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:medium;
+    border-radius: 25px;
+    background-color: #0a66c2;
+    color: white;
+    border-color: #0a66c2;
+    transform: translateY(30px);
+}
+.two .e>.e1>.E3
+{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.two .e>.e1>.E3>button{
+    height: 50%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-size:medium;
+    transform: translateY(20px);
+}
+.two .e>.e1>.E4{
+     height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.two .e>.e1>.E4>button{
+    height: 50%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-size:medium;
+    transform: translateY(10px);
+}
+.two .e>.e1>.E5{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.two .e>.e1>.E5>article{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transform: translateX(27px);
+}
+.two .e>.e1>.E5>article>p>a{
+    text-decoration: none;
+    color: blue;
+}
+.two .e>.e1>.E6{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.two .e>.e1>.E6>article{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transform: translateX(27px);
+}
+.two .e>.e1>.E6>article>p>a{
+    text-decoration: none;
+    color: blue;
+}
+.two .f{
+    height: 100%;
+    width: 44%; 
+    background-image: url('https://media.licdn.com/media//AAYAAgSrAAgAAQAAAAAAAGM6w-NyPk-_SVikYiCJ6V3Z-Q.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

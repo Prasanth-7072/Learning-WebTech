@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*naybar start*/
+#navbar{
+    border: solid;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-color: rgb(226, 223, 223);
+    box-shadow: 5px 5px 5px 5px rgb(157, 152, 152);
+}
+article{
+    /* border: solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+#navbar .logo{
+    flex-basis: 12%;
+    /* img{
+        height: 50px;
+        width: 50px;
+    } */
+}
+.logo  img{
+    height: 50px;
+    width: 50px;
+}
+/* logo ends */
+/* navigation starts */
+#navbar .navigation{
+    flex-basis: 40%;
+}
+
+.navigation ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navigation ul a{
+     text-decoration: none;
+     font-size: 17px;
+     color: black;
+     font-weight: bold;
+}
+
+.navigation ul li a sup span{
+     color: red;
+}
+
+
+/* navigation end */
+
+/* search starts */
+#navbar .search{
+    flex-basis: 30%;
+    
+
+}
+.search aside{
+    display: flex;
+    /* border: solid; */
+    width: 90%;
+    height: 65%;
+    padding: 5px;
+    background-color: rgb(245,245,246);
+    border-radius: 5px;
+}
+.search aside>div{
+    flex-basis: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+.search aside>div:last-child{
+    flex-basis: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input{
+        height: 100%;
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+}
+
+/* search end */
+
+/* profile starts */
+#navbar .profile{
+    flex-basis: 18%;
+    aside{
+        width: 100%;
+        div{
+            width: 100%;
+        }
+    } 
+}
+
+.profile ul{
+    /* border: solid; */
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+
+
+}
+
+.profile ul li{
+    flex-basis: 30%;
+    text-align: center;
+}
+.profile ul a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.b1{
+    padding: 0 5%;
+    background-color: rgb(255, 255, 255);
+} 
+
+.b1 #a1>a>img{
+    height: 300px;
+    width: 100%;
+   
+}
+#a2{
+    display: flex;
+}
+
+.b1 #a2>a{
+    width: 50%;
+}
+.b1 #a2>a>img{
+    height: 350px;
+    width: 100%;
+    
+}
+#a3{
+    display: flex;
+}
+.b1 #a3>a{
+    width: 25%;
+}
+
+.b1 #a3>a>img{
+       height: 50px;
+       width: 100%;
+}
+.b1 #a4>a>img{
+    height: 75px;
+    width: 100%;
+}
+#a5{
+    display: flex;
+}
+
+.b1 #a5>a{
+    width: 50%;
+}
+
+.b1 #a5>a>img{
+    height: 150px;
+    width: 100%;
+}
+
+.b1 #a6>a>img{
+    height: 150px;
+    width: 100%;
+}
+
+.b1 marquee>a{
+    width: 100%;
+}
+
+marquee a>img{
+    /* display: flex; */
+    height: 400px;
+    width: 23%;
+}
+
+.b2{
+    padding: 0 5%;
+}
+.b2 #c1>a>img{
+    height: 100px;
+    width: 100%;
+}
+
+
+.c2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    grid-template-rows: repeat(3,2fr);
+    grid-row: auto;
+}
+
+.b2 .c2>.s1>a{
+    width: 100%;
+}
+.b2 .s1>a>img{
+    height: 300px;
+    width: 100%;
+}
+
+.b2 .c3>a>img{
+    height: 300px;
+    width: 100%;
+}
+
+.b3{
+    padding: 0 7%;
+    /* border: solid black; */
+    height: 350px;
+    width: 100%;
+    background-color: rgb(250, 251, 252);
+    box-shadow: 5px 5px 5px 5px rgb(157, 152, 152);
+}
+.b3  .e1>ul{
+    list-style: none;
+    
+
+}
+.b3 .e1>a{
+    text-decoration: none;
+    color: black;
+}
+.b3 .e1>ul>a{
+    text-decoration: none;
+    color: grey;
+}
+
+ .b3 {
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+ }
+ .b3 .e2>#f1>a{
+    text-decoration: none;
+    color: black;
+ }
+
+#l1{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.b3 .e3>#f4>a{
+    text-decoration: none;
+    color: black;
+}
+.b3 .e3>#l2>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.b3 .e3>#l2>ul>a>li>img{
+    height: 30px;
+    width: 40px;
+}
+ .b3 .e4>ul{
+    list-style: none;
+ }
+.b3 .e4>ul>a>li{
+    text-decoration: none;
+    color: black;
+ }

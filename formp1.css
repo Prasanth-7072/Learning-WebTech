@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    /* width: 500px;
+    border: solid;
+    border-radius: 20px; */
+    display: flex;
+    background-image: url('https://wallpapers.com/images/hd/pleasant-shades-of-blue-gradient-background-o1gzfi7crc0a1dud.jpg');
+    
+}
+
+section{
+    flex-basis: 50%;
+    /* border: solid; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+form {
+    height: 80%;
+    width: 70%;
+    /* border: solid; */
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 5px 5px 6px black;
+}
+
+form label {
+    display: block;
+}
+
+form article {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: none;
+}
+
+form input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    color: azure;
+}
+
+form button {
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 5px 5px 6px black;
+
+}
+
+form button:hover{
+    background-color: orange;
+}
+
+article{
+    height: 250px;
+    width: 250px;
+    border: solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+article>div>button{
+    width: 80px;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 20px;   
+    font-size: 18px; 
+}
+
+article>div>button:first-child{
+    background-color: blue;
+    color: white;
+}
+
+article>div>button:last-child{
+    background-color: red;
+    color: white;
+}
+#secondSection{
+    overflow: scroll;
+}
